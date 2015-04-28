@@ -117,6 +117,18 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.hubspot-submit {
+    padding: 20px 40px;
+    border-color: #f15d4f;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f15d4f;   
+ }
+ 
 .btn-xl {
     padding: 20px 40px;
     border-color: #f15d4f;
