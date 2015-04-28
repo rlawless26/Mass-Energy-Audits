@@ -124,6 +124,8 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
+      width: 158px;
+      height: 67px;
     font-weight: 700;
     color: #fff;
     background-color: #f15d4f;   
@@ -139,6 +141,46 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #f15d4f;
+}
+
+.hubspot-btn:hover,
+.hubspot-btn:focus,
+.hubspot-btn:active,
+.hubspot-btn.active,
+.open .dropdown-toggle .hubspot-btn {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.hubspot-btn:active,
+.hubspot-btn.active,
+.open .dropdown-toggle .hubspot-btn {
+    background-image: none;
+}
+
+.hubspot-btn.disabled,
+.hubspot-btn[disabled],
+fieldset[disabled] .hubspot-btn,
+.hubspot-btn.disabled:hover,
+.hubspot-btn[disabled]:hover,
+fieldset[disabled] .hubspot-btn:hover,
+.hubspot-btn.disabled:focus,
+.hubspot-btn[disabled]:focus,
+fieldset[disabled] .hubspot-btn:focus,
+.hubspot-btn.disabled:active,
+.hubspot-btn[disabled]:active,
+fieldset[disabled] .hubspot-btn:active,
+.hubspot-btn.disabled.active,
+.hubspot-btn[disabled].active,
+fieldset[disabled] .hubspot-btn.active {
+    border-color: #f15d4f;
+    background-color: #f15d4f;
+}
+
+.hubspot-btn .badge {
+    color: #f15d4f;
+    background-color: #fff;
 }
 
 .btn-xl:hover,
