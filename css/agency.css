@@ -117,7 +117,7 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
-.hubspot-submit {
+.hubspot-btn {
     padding: 20px 40px;
     border-color: #f15d4f;
     border-radius: 3px;
