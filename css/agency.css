@@ -319,8 +319,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: url(../img/nbbg.jpg) no-repeat center top;
-    background-position: center center;
+    background: url(../img/nbbg.jpg) no-repeat center bottom;
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -351,7 +351,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 250px;
-        padding-bottom:200px
+        padding-bottom: 354px;
     }
 
     header .intro-text .intro-lead-in {
