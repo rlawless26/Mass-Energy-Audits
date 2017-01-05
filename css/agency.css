@@ -225,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #3a4659;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -263,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #425B76;
 }
 
 .navbar-default .nav li a:hover,
@@ -306,8 +306,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #3a4659;
+        padding: 25px 0;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -317,9 +317,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #425B76;
     background-attachment: scroll;
-    background: url(../img/nbbg.jpg) no-repeat center bottom;
+    background-color: #E6F5F9;
     background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -350,8 +350,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 250px;
-        padding-bottom: 354px;
+        padding-top: 150px;
     }
 
     header .intro-text .intro-lead-in {
