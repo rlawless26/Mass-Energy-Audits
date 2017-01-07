@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #33475b;
 }
 
 .text-primary {
@@ -139,6 +139,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin-top: 20px;
     color: #fff;
     background-color: #f15d4f;
 }
@@ -286,12 +287,14 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        background-color:#fff;
+        border-bottom:1px solid #e7e7e7;
     }
 
     .navbar-default .navbar-brand {
@@ -306,7 +309,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 25px 0;
+        padding: 10px 0;
         background-color: #fff;
     }
 
@@ -354,7 +357,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 35px;
         font-style: italic;
@@ -362,7 +365,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        text-transform: uppercase;
+     
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 45px;
         font-weight: 700;
@@ -391,7 +394,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -702,7 +705,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #3a4659;
+    background-color: #425B76;
     background-position: center;
     background-repeat: no-repeat;
 }
